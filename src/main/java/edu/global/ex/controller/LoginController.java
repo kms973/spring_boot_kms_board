@@ -22,6 +22,7 @@ public class LoginController {
 
 		String user_id;
 
+		
 		// 1.SpringContextHolder를 통하여 가져오는 방법(일반적인 빈에서 사용 할수있음 )
 //		org.springframework.security.core.Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 		// user_id = auth.getName();
